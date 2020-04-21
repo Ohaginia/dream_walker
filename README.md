@@ -28,26 +28,25 @@ cd ~/catkin_ws/src
 git clone https://github.com/Ohaginia/DreamWalker.git
 cd ~/catkin_ws
 catkin_make
-roslaunch
+roslaunch dream_walker gazebo.launch
+roslaunch dream_walker display.launch model:=dw_descliption3.urdf 
 ```
 
 # Note
 
-注意点などがあれば書く
+![Screenshot from 2020-04-21 22-58-47](https://user-images.githubusercontent.com/56295004/79875866-35d48d00-8425-11ea-9159-f5843ac111af.png)
+
+Change Fixed Frame of Global Options from map to dummy.
+(Default is map)
+
 
 # Author
 
-作成情報を列挙する
-
-* 作成者
-* 所属
-* E-mail
+* Shoma Uehara
+* TRUST SMITH & COMPANY
+* Hamashoma@gmail.com
 
 # License
-ライセンスを明示する
 
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+"dream_walker" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
-社内向けなら社外秘であることを明示してる
-
-"hoge" is Confidential.
