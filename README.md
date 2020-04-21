@@ -9,30 +9,22 @@ Develop a quadruped robot like Spot Mini
 ![Screenshot from 2020-04-21 22-57-04](https://user-images.githubusercontent.com/56295004/79875887-3d943180-8425-11ea-8a85-ec60c3a5776a.png "Rviz")
 
 # Features
+This robot will be developed using a BLDC actuator optimized for a quadruped robot.
+Gait control is performed using general kinematics control, and stability is guaranteed by dynamics control.
+At this stage, the simulation environment is ready.
 
-"hoge"のセールスポイントや差別化などを説明する
+# Environment
 
-# Requirement
-
-"hoge"を動かすのに必要なライブラリなどを列挙する
-
-* huga 3.5.2
-* hogehuga 1.0.2
-
-# Installation
-
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
-```bash
-pip install huga_package
-```
+OS:Ubuntu 18.04.4 LTS
+CPU:Intel® Core™ i7-1065G7 CPU @ 1.30GHz × 8 
+GPU:Intel® Iris(R) Plus Graphics (Ice Lake 8x8 GT2)
+ROS:Melodic
 
 # Usage
 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
 ```bash
-git clone https://github.com/hoge/~
+cd ~/catkin_ws/src
+git clone 
 cd examples
 python demo.py
 ```
