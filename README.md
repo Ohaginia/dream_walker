@@ -2,8 +2,11 @@
 Develop a quadruped robot like Spot Mini
 
 # DEMO
+gazebo simulation
+https://user-images.githubusercontent.com/56295004/79875861-33723300-8425-11ea-8e29-9f8bb4a9dade.png
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+Rviz
+https://user-images.githubusercontent.com/56295004/79875887-3d943180-8425-11ea-8a85-ec60c3a5776a.png
 
 # Features
 
