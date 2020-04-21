@@ -2,9 +2,10 @@
 Develop a quadruped robot like Spot Mini
 
 # DEMO
-
+**gazebo simulation**
 ![Screenshot from 2020-04-21 23-02-17](https://user-images.githubusercontent.com/56295004/79875861-33723300-8425-11ea-8e29-9f8bb4a9dade.png "gazebo simulation")
 
+**Rviz**
 ![Screenshot from 2020-04-21 22-57-04](https://user-images.githubusercontent.com/56295004/79875887-3d943180-8425-11ea-8a85-ec60c3a5776a.png "Rviz")
 
 # Features
