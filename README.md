@@ -4,8 +4,11 @@
 
 
 # DEMO
+**gazebo**
+![Screenshot from 2020-04-21 23-02-17](https://user-images.githubusercontent.com/56295004/79875861-33723300-8425-11ea-8e29-9f8bb4a9dade.png "gazebo")
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+**Rviz**
+![Screenshot from 2020-04-21 22-57-04](https://user-images.githubusercontent.com/56295004/79875887-3d943180-8425-11ea-8a85-ec60c3a5776a.png "Rviz")
 
 # Features
 This robot will be developed using a BLDC actuator optimized for a quadruped robot.  
@@ -21,8 +24,6 @@ ROS:Melodic
 
 # Usage
 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
 ```bash
 source ~/catkin_ws/devel/setup.bash
 (source ~/catkin_ws/devel/setup.zsh)
@@ -35,7 +36,7 @@ roslaunch dream_walker display.launch model:=dream_walker.urdf
 ```
 
 # Note
-
+![Screenshot from 2020-04-21 22-58-47](https://user-images.githubusercontent.com/56295004/79875866-35d48d00-8425-11ea-9159-f5843ac111af.png "note")
 **Change Fixed Frame of Global Options from map to dummy. (Default is map)**
 
 # Author
