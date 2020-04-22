@@ -41,9 +41,9 @@ roslaunch dream_walker display.launch model:=dream_walker.urdf
 
 # Author
 
-*Shoma Uehara
-*TRUST SMITH & COMPANY
-*Hamashoma@gmail.com
+*Shoma Uehara  
+*TRUST SMITH & COMPANY  
+*Hamashoma@gmail.com  
 
 # License
 
