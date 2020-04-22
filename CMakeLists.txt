@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 
-project(dw_descliption3)
+project(dream_walker)
 
 find_package(catkin REQUIRED)
 

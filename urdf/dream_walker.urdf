@@ -2,7 +2,7 @@
 <!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
-<robot name="dw_descliption3">
+<robot name="dream_walker">
   <material name="red">
     <color rgba="1.0 0.0 0.0 2.0"/>
   </material>
@@ -30,14 +30,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/base_link.STL" />
+        <mesh filename="package://dream_walker/meshes/base_link.STL" />
       </geometry>
       <material name="light_gray"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/base_link.STL" />
+        <mesh filename="package://dream_walker/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -51,14 +51,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/A0_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/A0_Link.STL" />
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/A0_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/A0_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -81,14 +81,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/A1_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/A1_Link.STL" />
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/A1_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/A1_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -113,14 +113,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/A2_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/A2_Link.STL" />
       </geometry>
       <material name="red"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/A2_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/A2_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -145,14 +145,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/A3_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/A3_Link.STL" />
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/A3_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/A3_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -177,14 +177,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/B0_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/B0_Link.STL" />
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/B0_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/B0_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -207,14 +207,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/B1_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/B1_Link.STL" />
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/B1_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/B1_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -239,14 +239,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/B2_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/B2_Link.STL" />
       </geometry>
       <material name="red"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/B2_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/B2_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -271,14 +271,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/B3_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/B3_Link.STL" />
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/B3_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/B3_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -303,14 +303,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/C0_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/C0_Link.STL" />
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/C0_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/C0_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -333,14 +333,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/C1_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/C1_Link.STL" />
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/C1_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/C1_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -365,14 +365,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/C2_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/C2_Link.STL" />
       </geometry>
       <material name="red"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/C2_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/C2_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -397,14 +397,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/C3_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/C3_Link.STL" />
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/C3_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/C3_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -429,14 +429,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/D0_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/D0_Link.STL" />
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/D0_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/D0_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -459,14 +459,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/D1_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/D1_Link.STL" />
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/D1_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/D1_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -491,14 +491,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/D2_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/D2_Link.STL" />
       </geometry>
       <material name="red"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/D2_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/D2_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -523,14 +523,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/D3_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/D3_Link.STL" />
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://dw_descliption3/meshes/D3_Link.STL" />
+        <mesh filename="package://dream_walker/meshes/D3_Link.STL" />
       </geometry>
     </collision>
   </link>
