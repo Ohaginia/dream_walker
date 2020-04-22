@@ -1,7 +1,7 @@
 # DreamWalker Project
 
 ***Develop a quadruped robot like Spot Mini***
-
+![image3](https://user-images.githubusercontent.com/56295004/79933096-f68c5780-8489-11ea-8cdb-884ec8ff9c80.JPG "DreanWalker")
 
 # DEMO
 **gazebo**
