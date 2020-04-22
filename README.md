@@ -36,7 +36,7 @@ roslaunch dream_walker display.launch model:=dream_walker.urdf
 ```
 
 # Note
-![Screenshot from 2020-04-21 22-58-47](https://user-images.githubusercontent.com/56295004/79875866-35d48d00-8425-11ea-9159-f5843ac111af.png "note")
+![Screenshot from 2020-04-21 22-58-47](https://user-images.githubusercontent.com/56295004/79875866-35d48d00-8425-11ea-9159-f5843ac111af.png "note")　　
 **Change Fixed Frame of Global Options from map to dummy. (Default is map)**
 
 # Author
