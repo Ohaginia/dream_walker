@@ -98,7 +98,8 @@
     <origin xyz="0 0 0" rpy="-1.5708 0.07854 -1.5708" />
     <parent link="A0_Link" />
     <child link="A1_Link" />
-    <axis xyz="0.078459 0.99692 0" />
+    <!-- <axis xyz="0.078459 0.99692 0" /> -->
+    <axis xyz="0 1 0"/>
     <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
     <dynamics damping="10" friction="10" />
   </joint>
@@ -224,7 +225,8 @@
     <origin xyz="0 0 0" rpy="-1.5708 0.07854 1.5708" />
     <parent link="B0_Link" />
     <child link="B1_Link" />
-    <axis xyz="0.078459 0.99692 0" />
+    <!-- <axis xyz="0.078459 0.99692 0" /> -->
+    <axis xyz="0 1 0" />
     <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
     <dynamics damping="10" friction="10" />
   </joint>
@@ -350,7 +352,8 @@
     <origin xyz="0 0 0" rpy="-1.5708 0.07854 -1.5708" />
     <parent link="C0_Link" />
     <child link="C1_Link" />
-    <axis xyz="0.078459 0.99692 0" />
+    <!-- <axis xyz="0.078459 0.99692 0" /> -->
+    <axis xyz="0 1 0"/>
     <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
     <dynamics damping="10" friction="10" />
   </joint>
@@ -476,7 +479,8 @@
     <origin xyz="0 0 0" rpy="-1.5708 0.07854 1.5708" />
     <parent link="D0_Link" />
     <child link="D1_Link" />
-    <axis xyz="0.078459 0.99692 0" />
+    <!-- <axis xyz="0.078459 0.99692 0" /> -->
+    <axis xyz="0 1 0" />
     <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
     <dynamics damping="10" friction="10" />
   </joint>
