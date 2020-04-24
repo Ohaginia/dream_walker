@@ -102,8 +102,8 @@
     <child link="A1_Link" />
     <!-- <axis xyz="0.078459 0.99692 0" /> -->
     <axis xyz="0 1 0"/>
-    <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
-    <dynamics damping="10" friction="10" />
+    <limit lower="-9.42" upper="9.42" effort="1000" velocity="1000" />
+    <dynamics damping="0" friction="0" />
   </joint>
 
 
@@ -134,8 +134,8 @@
     <parent link="A1_Link" />
     <child link="A2_Link" />
     <axis xyz="0 0 1" />
-    <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
-    <dynamics damping="10" friction="10" />
+    <limit lower="-9.42" upper="9.42" effort="1000" velocity="1000" />
+    <dynamics damping="0" friction="0" />
   </joint>
 
 
@@ -167,8 +167,8 @@
     <parent link="A2_Link" />
     <child link="A3_Link" />
     <axis xyz="0 0 1" />
-    <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
-    <dynamics damping="10" friction="10" />
+    <limit lower="-9.42" upper="9.42" effort="1000" velocity="1000" />
+    <dynamics damping="0" friction="0" />
   </joint>
 
 
@@ -232,8 +232,8 @@
     <child link="B1_Link" />
     <!-- <axis xyz="0.078459 0.99692 0" /> -->
     <axis xyz="0 1 0" />
-    <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
-    <dynamics damping="10" friction="10" />
+    <limit lower="-9.42" upper="9.42" effort="1000" velocity="1000" />
+    <dynamics damping="0" friction="0" />
   </joint>
 
 
@@ -264,8 +264,8 @@
     <parent link="B1_Link" />
     <child link="B2_Link" />
     <axis xyz="0 0 1" />
-    <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
-    <dynamics damping="10" friction="10" />
+    <limit lower="-9.42" upper="9.42" effort="1000" velocity="1000" />
+    <dynamics damping="0" friction="0" />
   </joint>
 
 
@@ -297,8 +297,8 @@
     <parent link="B2_Link" />
     <child link="B3_Link" />
     <axis xyz="0 0 1" />
-    <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
-    <dynamics damping="10" friction="10" />
+    <limit lower="-9.42" upper="9.42" effort="1000" velocity="1000" />
+    <dynamics damping="0" friction="0" />
   </joint>
 
 
@@ -362,8 +362,8 @@
     <child link="C1_Link" />
     <!-- <axis xyz="0.078459 0.99692 0" /> -->
     <axis xyz="0 1 0"/>
-    <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
-    <dynamics damping="10" friction="10" />
+    <limit lower="-9.42" upper="9.42" effort="1000" velocity="1000" />
+    <dynamics damping="0" friction="0" />
   </joint>
 
 
@@ -394,8 +394,8 @@
     <parent link="C1_Link" />
     <child link="C2_Link" />
     <axis xyz="0 0 1" />
-    <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
-    <dynamics damping="10" friction="10" />
+    <limit lower="-9.42" upper="9.42" effort="1000" velocity="1000" />
+    <dynamics damping="0" friction="0" />
   </joint>
 
 
@@ -427,8 +427,8 @@
     <parent link="C2_Link" />
     <child link="C3_Link" />
     <axis xyz="0 0 1" />
-    <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
-    <dynamics damping="10" friction="10" />
+    <limit lower="-9.42" upper="9.42" effort="1000" velocity="1000" />
+    <dynamics damping="0" friction="0" />
   </joint>
 
 
@@ -492,8 +492,8 @@
     <child link="D1_Link" />
     <!-- <axis xyz="0.078459 0.99692 0" /> -->
     <axis xyz="0 1 0" />
-    <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
-    <dynamics damping="10" friction="10" />
+    <limit lower="-9.42" upper="9.42" effort="1000" velocity="1000" />
+    <dynamics damping="0" friction="0" />
   </joint>
 
 
@@ -524,8 +524,8 @@
     <parent link="D1_Link" />
     <child link="D2_Link" />
     <axis xyz="0 0 1" />
-    <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
-    <dynamics damping="10" friction="10" />
+    <limit lower="-9.42" upper="9.42" effort="1000" velocity="1000" />
+    <dynamics damping="0" friction="0" />
   </joint>
 
 
@@ -557,7 +557,7 @@
     <parent link="D2_Link" />
     <child link="D3_Link" />
     <axis xyz="0 0 1" />
-    <limit lower="-1.5075" upper="1.5075" effort="1000" velocity="1000" />
-    <dynamics damping="10" friction="10" />
+    <limit lower="-9.42" upper="9.42" effort="1000" velocity="1000" />
+    <dynamics damping="0" friction="0" />
   </joint>
 </robot>
