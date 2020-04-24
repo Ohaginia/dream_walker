@@ -65,7 +65,8 @@
 
 
   <joint name="A0_joint" type="fixed">
-    <origin xyz="0.3 -0.083 0.55565" rpy="-1.5708 0 -1.5708" />
+    <!-- <origin xyz="0.3 -0.083 0.55565" rpy="-1.5708 0 -1.5708" /> -->
+    <origin xyz="0.3 -0.083 0.55565" rpy="-1.57079632679 0 -1.57079632679" />
     <parent link="base_link" />
     <child link="A0_Link" />
     <axis xyz="0 0 0" />
@@ -95,7 +96,8 @@
 
 
   <joint name="A1_joint" type="revolute">
-    <origin xyz="0 0 0" rpy="-1.5708 0.07854 -1.5708" />
+    <!-- <origin xyz="0 0 0" rpy="-1.5708 0.07854 -1.5708" /> -->
+    <origin xyz="0 0 0" rpy="-1.57079632679 0.07854 -1.57079632679" />
     <parent link="A0_Link" />
     <child link="A1_Link" />
     <!-- <axis xyz="0.078459 0.99692 0" /> -->
@@ -160,7 +162,8 @@
 
 
   <joint name="A3_joint" type="revolute">
-    <origin xyz="0 -0.32 0.135" rpy="0 0 1.5708" />
+    <!-- <origin xyz="0 -0.32 0.135" rpy="0 0 1.5708" /> -->
+    <origin xyz="0 -0.32 0.135" rpy="0 0 1.57079632679" />
     <parent link="A2_Link" />
     <child link="A3_Link" />
     <axis xyz="0 0 1" />
@@ -192,7 +195,8 @@
 
 
   <joint name="B0_joint" type="fixed">
-    <origin xyz="0.3 0.083 0.55565" rpy="-1.5708 0 -1.5708" />
+    <!-- <origin xyz="0.3 0.083 0.55565" rpy="-1.5708 0 -1.5708" /> -->
+    <origin xyz="0.3 0.083 0.55565" rpy="-1.57079632679 0 -1.57079632679" />
     <parent link="base_link" />
     <child link="B0_Link" />
     <axis xyz="0 0 0" />
@@ -222,7 +226,8 @@
 
 
   <joint name="B1_joint" type="revolute">
-    <origin xyz="0 0 0" rpy="-1.5708 0.07854 1.5708" />
+    <!-- <origin xyz="0 0 0" rpy="-1.5708 0.07854 1.5708" /> -->
+    <origin xyz="0 0 0" rpy="-1.57079632679 0.07854 1.57079632679" />
     <parent link="B0_Link" />
     <child link="B1_Link" />
     <!-- <axis xyz="0.078459 0.99692 0" /> -->
@@ -287,7 +292,8 @@
 
 
   <joint name="B3_joint" type="revolute">
-    <origin xyz="0 -0.32 0.135" rpy="0 0 -1.5708" />
+    <!-- <origin xyz="0 -0.32 0.135" rpy="0 0 -1.5708" /> -->
+    <origin xyz="0 -0.32 0.135" rpy="0 0 -1.57079632679" />
     <parent link="B2_Link" />
     <child link="B3_Link" />
     <axis xyz="0 0 1" />
@@ -319,7 +325,8 @@
 
 
   <joint name="C0_joint" type="fixed">
-    <origin xyz="-0.3 -0.083 0.55565" rpy="1.5708 0 -1.5708" />
+    <!-- <origin xyz="-0.3 -0.083 0.55565" rpy="1.5708 0 -1.5708" /> -->
+    <origin xyz="-0.3 -0.083 0.55565" rpy="1.57079632679 0 -1.57079632679" />
     <parent link="base_link" />
     <child link="C0_Link" />
     <axis xyz="0 0 0" />
@@ -349,7 +356,8 @@
 
 
   <joint name="C1_joint" type="revolute">
-    <origin xyz="0 0 0" rpy="-1.5708 0.07854 -1.5708" />
+    <!-- <origin xyz="0 0 0" rpy="-1.5708 0.07854 -1.5708" /> -->
+    <origin xyz="0 0 0" rpy="-1.57079632679 0.07854 -1.57079632679" />
     <parent link="C0_Link" />
     <child link="C1_Link" />
     <!-- <axis xyz="0.078459 0.99692 0" /> -->
@@ -382,7 +390,7 @@
 
 
   <joint name="C2_joint" type="revolute">
-    <origin xyz="-0.0065513 -0.083243 0.0315" rpy="0 0 0.70686" />
+    <origin xyz="-0.0065513 -0.083243 0.0315" rpy="0 0 0.70686" /> 
     <parent link="C1_Link" />
     <child link="C2_Link" />
     <axis xyz="0 0 1" />
@@ -414,7 +422,8 @@
 
 
   <joint name="C3_joint" type="revolute">
-    <origin xyz="0 -0.32 0.135" rpy="0 0 1.5708" />
+    <!-- <origin xyz="0 -0.32 0.135" rpy="0 0 1.5708" /> -->
+    <origin xyz="0 -0.32 0.135" rpy="0 0 1.57079632679" />
     <parent link="C2_Link" />
     <child link="C3_Link" />
     <axis xyz="0 0 1" />
@@ -446,7 +455,8 @@
 
 
   <joint name="D0_joint" type="fixed">
-    <origin xyz="-0.3 0.083 0.55565" rpy="1.5708 0 -1.5708" />
+    <!-- <origin xyz="-0.3 0.083 0.55565" rpy="1.5708 0 -1.5708" /> -->
+    <origin xyz="-0.3 0.083 0.55565" rpy="1.57079632679 0 -1.57079632679" />
     <parent link="base_link" />
     <child link="D0_Link" />
     <axis xyz="0 0 0" />
@@ -476,7 +486,8 @@
 
 
   <joint name="D1_joint" type="revolute">
-    <origin xyz="0 0 0" rpy="-1.5708 0.07854 1.5708" />
+    <!-- <origin xyz="0 0 0" rpy="-1.5708 0.07854 1.5708" /> -->
+    <origin xyz="0 0 0" rpy="-1.57079632679 0.07854 1.57079632679" />
     <parent link="D0_Link" />
     <child link="D1_Link" />
     <!-- <axis xyz="0.078459 0.99692 0" /> -->
@@ -509,7 +520,7 @@
 
 
   <joint name="D2_joint" type="revolute">
-    <origin xyz="-0.0065513 -0.083243 0.0315" rpy="0 0 -0.86394" />
+    <origin xyz="-0.0065513 -0.083243 0.0315" rpy="0 0 -0.86394" /> 
     <parent link="D1_Link" />
     <child link="D2_Link" />
     <axis xyz="0 0 1" />
@@ -541,7 +552,8 @@
 
 
   <joint name="D3_joint" type="revolute">
-    <origin xyz="0 -0.32 0.135" rpy="0 0 -1.5708" />
+    <!-- <origin xyz="0 -0.32 0.135" rpy="0 0 -1.5708" /> -->
+    <origin xyz="0 -0.32 0.135" rpy="0 0 -1.57079632679" />
     <parent link="D2_Link" />
     <child link="D3_Link" />
     <axis xyz="0 0 1" />
