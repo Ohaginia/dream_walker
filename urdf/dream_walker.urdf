@@ -579,4 +579,253 @@
     <child link="D4_Link" />
   </joint>
 
+
+  <gazebo reference="base_link">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+  <gazebo reference="A0_Link">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+  <gazebo reference="A1_Link">
+    <material>Gazebo/FratBlack</material>
+  </gazebo>
+  <gazebo reference="A2_Link">
+    <material>Gazebo/Red</material>
+  </gazebo>
+  <gazebo reference="A3_Link">
+
+    <material>Gazebo/Gray</material>
+  </gazebo>
+  <gazebo reference="A4_Link">
+    <material>Gazebo/DarkGray</material>
+  </gazebo> 
+  <gazebo reference="B0_Link">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+  <gazebo reference="B1_Link">
+    <material>Gazebo/FratBlack</material>
+  </gazebo>
+  <gazebo reference="B2_Link">
+    <material>Gazebo/Red</material>
+  </gazebo>
+  <gazebo reference="B3_Link">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+  <gazebo reference="B4_Link">
+    <material>Gazebo/DarkGray</material>
+  </gazebo> 
+  <gazebo reference="C0_Link">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+  <gazebo reference="C1_Link">
+    <material>Gazebo/FratBlack</material>
+  </gazebo>
+  <gazebo reference="C2_Link">
+    <material>Gazebo/Red</material>
+  </gazebo>
+  <gazebo reference="C3_Link">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+  <gazebo reference="C4_Link">
+    <material>Gazebo/DarkGray</material>
+  </gazebo> 
+  <gazebo reference="D0_Link">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+  <gazebo reference="D1_Link">
+    <material>Gazebo/FratBlack</material>
+  </gazebo>
+  <gazebo reference="D2_Link">
+    <material>Gazebo/Red</material>
+  </gazebo>
+  <gazebo reference="D3_Link">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+  <gazebo reference="D4_Link">
+    <material>Gazebo/DarkGray</material>
+  </gazebo> 
+
+  <gazebo reference="A4_Link">
+    <kp>1000000.0</kp>
+    <kd>1.0</kd>
+    <mu1>0.8</mu1>
+    <mu2>0.8</mu2>
+    <maxVel>0.0</maxVel>
+    <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+  <gazebo reference="B4_Link">
+    <kp>1000000.0</kp>
+    <kd>1.0</kd>
+    <mu1>0.8</mu1>
+    <mu2>0.8</mu2>
+    <maxVel>0.0</maxVel>
+    <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+  <gazebo reference="C4_Link">
+    <kp>1000000.0</kp>
+    <kd>1.0</kd>
+    <mu1>0.8</mu1>
+    <mu2>0.8</mu2>
+    <maxVel>0.0</maxVel>
+    <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+  <gazebo reference="D4_Link">
+    <kp>1000000.0</kp>
+    <kd>1.0</kd>
+    <mu1>0.8</mu1>
+    <mu2>0.8</mu2>
+    <maxVel>0.0</maxVel>
+    <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+
+  <transmission name="A1_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="A1_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="A1_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="A2_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="A2_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="A2_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="A3_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="A3_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="A3_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="B1_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="B1_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="B1_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="B2_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="B2_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="B2_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="B3_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="B3_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="B3_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="C1_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="C1_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="C1_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="C2_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="C2_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="C2_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="C3_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="C3_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="C3_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="D1_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="D1_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="D1_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="D2_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="D2_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="D2_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="D3_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="D3_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="D3_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+
+
+  <gazebo>
+    <plugin filename="libgazebo_ros_p3d.so" name="p3d_base_controller">
+      <alwaysOn>true</alwaysOn>
+      <updateRate>10.0</updateRate>
+      <bodyName>base_link</bodyName>
+      <topicName>odom/ground_truth</topicName>
+      <gaussianNoise>0.01</gaussianNoise>
+      <frameName>world</frameName>
+      <xyzOffsets>0 0 0</xyzOffsets>
+      <rpyOffsets>0 0 0</rpyOffsets>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control">
+      <robotNamespace>/champ</robotNamespace>
+      <legacyModeNS>true</legacyModeNS>
+    </plugin>
+  </gazebo>
+
+
 </robot>
