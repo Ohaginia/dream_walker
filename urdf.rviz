@@ -77,6 +77,10 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        A4_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         All Links Enabled: true
         B0_Link:
           Alpha: 1
@@ -98,6 +102,10 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        B4_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         C0_Link:
           Alpha: 1
           Show Axes: false
@@ -118,6 +126,10 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        C4_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         D0_Link:
           Alpha: 1
           Show Axes: false
@@ -138,6 +150,10 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        D4_Link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         Expand Joint Details: false
         Expand Link Details: false
         Expand Tree: false
@@ -215,7 +231,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 2.590575933456421
+      Distance: 4.552281856536865
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -230,10 +246,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.515398383140564
+      Pitch: -0.11460205167531967
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.7403882741928101
+      Yaw: 0.020382538437843323
     Saved: ~
 Window Geometry:
   Displays:
